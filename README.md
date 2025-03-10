@@ -15,9 +15,9 @@ Result Interpretation on the sample data:
 1.
 Model: rda(formula = genus_data_hellinger ~ site + Temp + PE + PS + PVC + Mealworm + Superworm, data = metadata_numeric)
 
-         Df Variance      F Pr(>F)    
-Model     6  0.21148 4.6095  0.001 
-Residual 69  0.52760     
+         Df    Variance      F       Pr(>F)    
+Model    6     0.21148       4.6095  0.001 
+Residual 69    0.52760     
 
 Takeaway:
 The overall RDA model is statistically significant (p = 0.001), meaning that the environmental variables significantly explain variations in genus composition.
