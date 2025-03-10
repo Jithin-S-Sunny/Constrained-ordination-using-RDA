@@ -13,7 +13,7 @@ This script performs Redundancy Analysis  to examine how environmental metadata 
 Result Interpretation on the sample data:
 
 1.
-Model: rda(formula = genus_data_hellinger ~ site + Temp + PE + PS + PVC + Mealworm + Superworm, data = metadata_numeric)
+Model: rda(formula = genus_data_hellinger ~ site + Temp + PE + PS + PVC + X + Y, data = metadata_numeric)
 
          Df    Variance      F       Pr(>F)    
 Model    6     0.21148       4.6095  0.001 
@@ -39,6 +39,7 @@ RDA2 (p = 0.003, 3.68% variance explained) is also statistically significant.
 
 3. 
         RDA1        RDA2              Variable
+
 site   -0.27999597   -0.02490600      site
 Temp    1.72310715   -0.51962448      Temp
 PE     -0.01851582   -0.05580422        PE
@@ -48,8 +49,8 @@ Y      -0.20067748    0.99281882      Y
 
 Takeaway:
 Temperature (Temp, RDA1 = 1.72) is the strongest driver, meaning it significantly influences genus composition.
-Mealworm (-0.59 on RDA1, -1.67 on RDA2) negatively correlates with RDA1 and RDA2, meaning that samples with more mealworm-associated genera are compositionally different.
-Superworm (0.99 on RDA2) strongly influences RDA2, meaning it defines an alternative genus composition compared to mealworm.
+X (-0.59 on RDA1, -1.67 on RDA2) negatively correlates with RDA1 and RDA2, meaning that samples with more X-associated genera are compositionally different.
+Y (0.99 on RDA2) strongly influences RDA2, meaning it defines an alternative genus composition compared to X.
 PS (0.82 on RDA2) suggests that polystyrene (PS) exposure affects microbial community composition.
 PE has negligible influence, as its RDA1 and RDA2 loadings are close to zero.
 
