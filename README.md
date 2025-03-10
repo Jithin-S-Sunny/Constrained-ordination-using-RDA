@@ -16,7 +16,7 @@ Result Interpretation on the sample data:
 Model: rda(formula = genus_data_hellinger ~ site + Temp + PE + PS + PVC + Mealworm + Superworm, data = metadata_numeric)
 
          Df Variance      F Pr(>F)    
-Model     6  0.21148 4.6095  0.001 ***  
+Model     6  0.21148 4.6095  0.001 
 Residual 69  0.52760     
 
 Takeaway:
@@ -25,9 +25,9 @@ The model explains 21.15% of the total variance in the dataset.
 Residual variance (52.76%) indicates unexplained variation, possibly due to other unmeasured factors.
 
 2. 
-RDA1      1  0.12873 16.8348  0.001 ***  
-RDA2      1  0.03683  4.8166  0.003 **  
-RDA3      1  0.02432  3.1806  0.040 *  
+RDA1      1  0.12873 16.8348  0.001 
+RDA2      1  0.03683  4.8166  0.003 
+RDA3      1  0.02432  3.1806  0.040 
 RDA4      1  0.01575  2.0594  0.218    
 RDA5      1  0.00461  0.6034  0.979    
 RDA6      1  0.00124  0.1623  1.000  
