@@ -17,6 +17,7 @@ Model: rda(formula = genus_data_hellinger ~ site + Temp + PE + PS + PVC + Mealwo
 
          Df    Variance      F       Pr(>F)    
 Model    6     0.21148       4.6095  0.001 
+
 Residual 69    0.52760     
 
 Takeaway:
