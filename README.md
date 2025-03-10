@@ -37,13 +37,13 @@ RDA1 (p = 0.001, 12.87% variance explained) is the most important axis, meaning 
 RDA2 (p = 0.003, 3.68% variance explained) is also statistically significant.
 
 3. 
-                 RDA1        RDA2  Variable
-site      -0.27999597 -0.02490600      site
-Temp       1.72310715 -0.51962448      Temp
-PE        -0.01851582 -0.05580422        PE
-PS        -0.16433138  0.82320129        PS
-Mealworm  -0.59492258 -1.67221725  Mealworm
-Superworm -0.20067748  0.99281882 Superworm
+        RDA1        RDA2              Variable
+site   -0.27999597   -0.02490600      site
+Temp    1.72310715   -0.51962448      Temp
+PE     -0.01851582   -0.05580422        PE
+PS     -0.16433138    0.82320129        PS
+X      -0.59492258   -1.67221725      X
+Y      -0.20067748    0.99281882      Y
 
 Takeaway:
 Temperature (Temp, RDA1 = 1.72) is the strongest driver, meaning it significantly influences genus composition.
